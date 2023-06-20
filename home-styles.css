@@ -4,17 +4,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #179F97;
     font-family: "Montseratt", sans-serif;
-
+    color: white;
 }
-
+/* Navigation css */
 header{
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 1%;
+}
+
+body{
+    background-color: white;
 }
 
 .logo-pic{
@@ -56,7 +58,7 @@ nav{
     color: #0C423F;
 }
 
-button{
+.contact-button{
     margin-right: 25px;
     margin-left: 20px;
     padding: 10px 30px;
@@ -70,7 +72,7 @@ button{
     color: white
 }
 
-button:hover{
+.contact-button:hover{
     padding: 12px 32px;
     background-color: white;
     border: none;
@@ -80,4 +82,75 @@ button:hover{
     font-weight:550;
     font-size: 18px;
     color: #106560;
+}
+
+/* Content css */
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.learn-button{
+    margin-top: 4em;
+    margin-right: 25px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #106560;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+    color: white
+}
+
+.learn-button:hover{
+    background-color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+
+    color: #106560;  
+}
+
+h1{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.hi-there{
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.description{
+    margin-top: 2em;
+    font-size: 23px;
+    padding-left: 1em;
+}
+
+.for-color{
+    background-color: #179F97;
+    height: 553px;
+}
+
+
+.passion{
+    font-size: 18px;
+    padding-right: 3em;
+    margin-right: 8em;
+}
+
+.prog{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer p{
+    margin-top: 5rem;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
 }

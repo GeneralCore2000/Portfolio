@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montseratt", sans-serif;
+    color: white;
+}
+/* Navigation css */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+body{
+    background-color: #179F97;
+}
+
+.logo-pic{
+    cursor:pointer;
+    
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+
+.nav_links{
+    list-style: none;
+    
+}
+
+.nav_links, .logo-pic, button{
+    margin-top: 1em;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0em 2em;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    font-weight:550;
+    font-size: 18px;
+}
+
+.nav_links li a:hover{
+    color: #0C423F;
+}
+
+.contact-button{
+    margin-right: 25px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: #106560;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight:550;
+    font-size: 18px;
+    color: white
+}
+
+.contact-button:hover{
+    padding: 12px 32px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight:550;
+    font-size: 18px;
+    color: #106560;
+}
+
+/* Content css */
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+h1{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.hi-there{
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.description{
+    margin-top: 2em;
+    font-size: 23px;
+    padding-left: 1em;
+}
+
+.for-color{
+    background-color: #179F97;
+    height: 553px;
+}
+
+.me-img{
+   height: 474px;
+   width: 516px;
+   margin-right:7em;
+}
+
+.passion{
+    font-size: 18px;
+    padding-right: 0em;
+    margin-right: 4em;
+}
+
+.prog{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer p{
+    margin-top: 5rem;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-page h2{
+    justify-content: center;
+    background-color: red;
+    color: #179F97;
+    display: flex;
+    
+}
