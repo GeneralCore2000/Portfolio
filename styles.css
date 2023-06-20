@@ -5,6 +5,79 @@
     padding: 0;
     margin: 0;
     background-color: #179F97;
+    font-family: "Montseratt", sans-serif;
+
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+.logo-pic{
+    cursor:pointer;
+    
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
 
 
+.nav_links{
+    list-style: none;
+    
+}
+
+.nav_links, .logo-pic, button{
+    margin-top: 1em;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0em 2em;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    font-weight:550;
+    font-size: 18px;
+}
+
+.nav_links li a:hover{
+    color: #0C423F;
+}
+
+button{
+    margin-right: 25px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: #106560;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight:550;
+    font-size: 18px;
+    color: white
+}
+
+button:hover{
+    padding: 12px 32px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight:550;
+    font-size: 18px;
+    color: #106560;
 }
