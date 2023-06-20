@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     font-family: "Montseratt", sans-serif;
-    color: white;
 }
 /* Navigation css */
 header{
@@ -16,7 +15,7 @@ header{
 }
 
 body{
-    background-color: #179F97;
+    color: white;
 }
 
 .logo-pic{
@@ -138,10 +137,29 @@ footer p{
     justify-content: center;
 }
 
-.second-page h2{
+.second-page{
+    color:#179F97;
     justify-content: center;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0em 6em;
+}
+.second-page h2{
+    margin-left: 1em;
+    font-size: 40px;
     color: #179F97;
     display: flex;
-    
+    padding: 0.5em 0em;
+    font-weight: bold;
+}
+
+.second-page p{
+    padding-left: 4em;
+    font-size: 18px;
+}
+
+.expert{
+    padding-top: 3em;
+    padding-left: 2em;
 }
