@@ -16,8 +16,13 @@ header{
 }
 
 body{
-    background-color: white;
+    background-color: #179F97;
     height: 553px;
+}
+
+.logo-pic{
+    cursor:pointer;
+    
 }
 
 nav{
@@ -28,6 +33,7 @@ nav{
     justify-content: space-between;
     padding-left: 20px;
 }
+
 
 .nav_links{
     list-style: none;
@@ -87,33 +93,8 @@ h1{
     font-size: 40px;
 }
 
-.hi-there{
-    font-size: 31px;
-    margin-bottom: 15px;
-}
-
-.description{
-    margin-top: 2em;
-    font-size: 23px;
-    padding-left: 1em;
-}
-
-.for-color{
-    background-color: #179F97;
-    
-}
 
 
-.passion{
-    font-size: 18px;
-    padding-right: 3em;
-    margin-right: 8em;
-}
-
-.prog{
-    font-size: 15px;
-    font-weight: lighter;
-}
 footer{
     background-color: white;
 }
@@ -125,41 +106,38 @@ footer p{
     justify-content: center;
 }
 
-.third-third-page{
-    height: 763px;
-    background-color: #179F97;
+/* Above essential */
+
+.content{
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.contacts, .socmed{
+    /* margin-top: 0rem; */
+    /* background-color: red; */
+    display: flex;
     justify-content: center;
-    display: flex;
-    flex-direction: row;
+}
+.contacts{
+    margin-bottom: 5em;
 }
 
-.third-page h2{
+.infos span{
+    display: block;
+    margin-bottom: 5px;
+}
+.links{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    display: flex;
-    margin: 1em 2em;
-    font-size: 35px;
+    gap: 5em;
 
 }
-.firstHistory{
-    font-size:18px;
-    display: flex;
-    flex-direction: row;
-}
 
-.secondHistory{
-    text-align: right; 
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-}
 
-.thirdHistory{
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-}
-
-.third-third-page p, img{
-    margin: 1em 7em;
-    align-self: center;
+.contacts h2, .socmed h2{
+    padding-left: 2em;
+    margin-bottom: 1em;
+    font-size: 40px;
 }
