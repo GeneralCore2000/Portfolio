@@ -141,9 +141,6 @@ footer p{
     color:#179F97;
     justify-content: center;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin:0em 6em;
 }
 .second-page h2{
     margin-left: 1em;
@@ -152,6 +149,7 @@ footer p{
     display: flex;
     padding: 0.5em 0em;
     font-weight: bold;
+    
 }
 
 .second-page p{
@@ -160,6 +158,48 @@ footer p{
 }
 
 .expert{
-    padding-top: 3em;
+    padding-top: 2em;
     padding-left: 2em;
 }
+
+
+
+.third-third-page{
+    height: 763px;
+    background-color: #179F97;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.third-page h2{
+    justify-content: center;
+    display: flex;
+    margin: 1em 2em;
+    font-size: 35px;
+
+}
+.firstHistory{
+    font-size:18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondHistory{
+    text-align: right; 
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdHistory{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.third-third-page p, img{
+    margin: 1em 7em;
+    align-self: center;
+}
+
